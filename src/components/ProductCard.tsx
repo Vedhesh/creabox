@@ -57,7 +57,7 @@ export function ProductCard({ product, onProductClick }: ProductCardProps) {
         {product.prime && (
           <div className="absolute top-2 right-2 bg-blue-600 text-white px-2 py-1 rounded text-xs font-bold flex items-center">
             <Truck size={12} className="mr-1" />
-            Prime
+            Lightning
           </div>
         )}
       </div>

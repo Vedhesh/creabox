@@ -97,7 +97,7 @@ export function ProductDetail({ product, onBack }: ProductDetailProps) {
             <div className="space-y-3 mb-6">
               <div className="flex items-center space-x-2 text-gray-700">
                 <Shield size={16} />
-                <span>Amazon's Choice</span>
+                <span>Editor's Choice</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-700">
                 <RotateCcw size={16} />
@@ -143,7 +143,7 @@ export function ProductDetail({ product, onBack }: ProductDetailProps) {
 
           {/* Product Features */}
           <div className="border-t pt-6">
-            <h3 className="font-bold text-lg mb-3">About this item</h3>
+            <h3 className="font-bold text-lg mb-3">About this comic</h3>
             <p className="text-gray-700 mb-4">{product.description}</p>
             <ul className="space-y-2">
               {product.features.map((feature, index) => (

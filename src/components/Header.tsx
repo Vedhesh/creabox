@@ -69,8 +69,8 @@ export function Header({
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
             <div className="text-2xl font-bold">
-              <span className="text-white">amazon</span>
-              <span className="text-orange-400">.com</span>
+              <span className="text-white">creabox</span>
+              <span className="text-orange-400">.vercel.app</span>
             </div>
           </div>
 
@@ -79,7 +79,7 @@ export function Header({
             <MapPin size={16} className="text-gray-300" />
             <div className="ml-1">
               <div className="text-xs text-gray-300">Deliver to</div>
-              <div className="font-bold">New York 10001</div>
+              <div className="font-bold">Prabhavati Elegant</div>
             </div>
           </div>
 
@@ -100,7 +100,7 @@ export function Header({
                   type="text"
                   value={searchQuery}
                   onChange={(e) => onSearchChange(e.target.value)}
-                  placeholder="Search Amazon"
+                  placeholder="Search CreaBox"
                   className="w-full px-4 py-2 text-gray-800 rounded md:rounded-none md:rounded-r focus:outline-none"
                 />
                 <button className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-600 hover:text-gray-800">

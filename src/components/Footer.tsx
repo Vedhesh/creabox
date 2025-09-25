@@ -53,7 +53,7 @@ export function Footer() {
             <span className="text-orange-400">.com</span>
           </div>
           <p className="text-sm text-gray-400">
-            © 2024 CreaBox Clone. This is a demo application built for educational purposes.
+            © 2024 CreaBox. This is a demo application built for educational purposes.
           </p>
         </div>
       </div>
