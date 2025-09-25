@@ -74,7 +74,7 @@ export function Cart({ isOpen, onClose }: CartProps) {
                   <div className="flex-1">
                     <h3 className="font-medium text-gray-900">{item.title}</h3>
                     <p className="text-lg font-bold text-gray-900">
-                      ${item.price.toFixed(2)}
+                    ₹{item.price.toFixed(2)}
                     </p>
                     <div className="flex items-center space-x-2 mt-2">
                       <button
@@ -109,7 +109,7 @@ export function Cart({ isOpen, onClose }: CartProps) {
             <div className="flex items-center justify-between mb-4">
               <span className="text-xl font-bold">Total:</span>
               <span className="text-2xl font-bold text-orange-600">
-                ${total.toFixed(2)}
+              ₹{total.toFixed(2)}
               </span>
             </div>
             <button className="w-full bg-orange-400 hover:bg-orange-500 text-white font-bold py-3 px-6 rounded-lg transition-colors">

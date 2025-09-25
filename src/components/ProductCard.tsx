@@ -51,13 +51,13 @@ export function ProductCard({ product, onProductClick }: ProductCardProps) {
         />
         {product.originalPrice && (
           <div className="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 rounded text-xs font-bold">
-            SAVE ${(product.originalPrice - product.price).toFixed(2)}
+            SAVE ₹{(product.originalPrice - product.price).toFixed(2)}
           </div>
         )}
         {product.prime && (
           <div className="absolute top-2 right-2 bg-blue-600 text-white px-2 py-1 rounded text-xs font-bold flex items-center">
             <Truck size={12} className="mr-1" />
-            Lightning
+            Early access
           </div>
         )}
       </div>
@@ -79,11 +79,11 @@ export function ProductCard({ product, onProductClick }: ProductCardProps) {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <span className="text-xl font-bold text-gray-900">
-              ${product.price.toFixed(2)}
+            ₹{product.price.toFixed(2)}
             </span>
             {product.originalPrice && (
               <span className="text-sm text-gray-500 line-through">
-                ${product.originalPrice.toFixed(2)}
+                ₹{product.originalPrice.toFixed(2)}
               </span>
             )}
           </div>
